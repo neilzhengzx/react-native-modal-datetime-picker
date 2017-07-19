@@ -124,6 +124,8 @@ export default class CustomDatePickerIOS extends Component {
         isVisible={isVisible}
         style={[styles.contentContainer, contentContainerStyleIOS]}
         onModalHide={this._handleOnModalHide}
+        hideOnBack={false}
+        onBackButtonPress={this._handleCancel}
       >
         <View style={[styles.datepickerContainer, datePickerContainerStyleIOS]}>
           {customTitleContainerIOS || titleContainer}
