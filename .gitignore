@@ -42,3 +42,5 @@ android/keystores/debug.keystore
 
 .jsconfig.json
 .vscode
+jsconfig.json
+npm-debug.log.*
